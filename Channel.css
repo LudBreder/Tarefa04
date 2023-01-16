@@ -1,0 +1,20 @@
+.card {
+    /* Adiciona sombras para criar o efeito do cartão */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  
+    /* Tamanho da fonte */
+    font-size: 0.9em;
+  
+    /* Centraliza o cartão e ajusta o tamanho dele */
+    display: inline-block;
+    width: 10rem;
+  
+    /* Cria distância dentro do cartão entre a imagem e o texto */
+    padding: 4px;
+  }
+  
+  /* Ao passar o mouse em cima, cria uma sombra mais forte */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
